@@ -1,0 +1,49 @@
+.Container{
+	width: 50%;
+	height: 600px;
+	display: flex;
+	gap: 20px;
+}
+
+.Container img{
+	width: 10%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 2px solid white;
+	transition: all ease-out 0.5s;
+	cursor: pointer;
+
+}
+
+.Container img:hover{
+	width: 100%;
+
+}
+
+h1{
+	color: aliceblue;
+	font-size: 50px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+}
+
+p{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 90px;
+	color:rgb(243, 242, 236)
+}
+
+p{
+
+text-align:right center;
+float: right;
+width: 600px;
+}
+
+.text{
+	background: url(image/pexels-little-visuals-1749.jpg) 0 0 / cover no-repeat;
+	-webkit-background-clip : text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 1.5px color(srgb 255 255 255);	
+}
